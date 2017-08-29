@@ -1,5 +1,160 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.q10 {
+	width: 700px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #ecf1f2;
+}
+
+.q-10-title {
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.q-10-title:before {
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	height: 1px;
+	background-color: #ccc;
+	content: "";
+}
+
+.title-text {
+	position: relative;
+	display: inline-block;
+	padding-right: 10px;
+	font-size: 24px;
+	background-color: #ecf1f2;
+	font-weight: bold;
+}
+
+-------------------------------------------------------
+
+.sasaki {
+	width: 300px;
+    float: left;
+}
+
+.main-content {
+	margin-bottom: 20px;
+}
+
+.main-content >
+li:not( :first-child) {
+	margin-top: 20px;
+}
+
+.text-box {
+	width: 100px;
+	float: left;
+	line-height: 25px;
+	text-align: right;
+}
+
+.red {
+	color: #f00;
+}
+
+.main-left-content {
+	width: 180px;
+	float: right;
+}
+
+.input-content {
+	padding: 0;
+    background: none;
+    border: none;
+    border-radius: 0;
+    font-size: 16px;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.text {
+    width: 100%;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: #FFF;
+    font-size: 12px;
+    line-height: 12px;
+    box-sizing: border-box;
+}
+
+.radio-botton {
+	cursor: pointer;
+}
+
+.radio-botton-content {
+	display: none;
+}
+
+.radio-text {
+    position: relative;
+    display: inline-block;
+    padding: 3px 3px 3px 20px;
+}
+
+.radio-text:before {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 14px;
+    height: 14px;
+    margin-top: -8px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    content: '';
+}
+
+.radio-botton-content:checked + .radio-text:after {
+    position: absolute;
+    top: 50%;
+    left: 4px;
+    width: 8px;
+    height: 8px;
+    margin-top: -4px;
+    background-color: #00BCD4;
+    border-radius: 50%;
+    content: '';
+}
+
+.main-submit {
+	text-align: right;
+}
+
+.main-submit-content {
+    padding: 0 10px;
+    border-radius: 5px;
+    background-color: #00BCD4;
+    color: #FFF;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 26px;
+
+}
+
+.main-right {
+	width: 380px;
+	float: right;
+}
+
+.main-right-text {
+	width: 100%;
+    height: 203px;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: #FFF;
+    font-size: 12px;
+    box-sizing: border-box;
+    resize: none;
+}
+
+
 
 /* 回答はここに書いてね */

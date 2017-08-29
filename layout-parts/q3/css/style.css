@@ -1,5 +1,46 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.table-all {
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+	table-layout: fixed;
+	border-collapse: collapse;
+	line-height: 1.5;
+	border: solid #dedede 1px;
+}
 
-/* 回答はここに書いてね */
+.table-all thead {
+	border: solid 1px #dedede;
+	background-color: #2244aa;
+}
+
+.table-all thead th {
+	border: solid 1px #dedede;
+	padding: 10px;
+	color: white;
+}
+
+.table-all tbody th {
+	padding: 10px;
+	border: solid 1px #dedede;
+	background-color: #2244aa;
+	color: white;
+	
+}
+
+.table-all tbody tr:last-child {
+	border-top: dashed #000 2px;
+}
+
+.table-all tbody td {
+	padding: 10px;
+	border: solid 1px #dedede;
+}
+
+.table-all tbody tr:nth-child(2n) {
+	background-color: #ecf1f2;
+}
+
+
