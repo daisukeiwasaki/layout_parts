@@ -4,7 +4,7 @@
 .q7 {
 	font-size: 0;
 	text-align: center;
-} 
+}
 
 .q7-box {
 	display:  inline-block;
@@ -45,10 +45,10 @@
 
 .q7-radio { cursor: pointer; }
 
-.q7-radio__btn { display: none; }
+.q7-radio__button { display: none; }
 
-.q7-radio__txt { 
-	position: relative; 
+.q7-radio__txt {
+	position: relative;
 	display: inline-block;
 	padding: 3px 3px 3px 20px;
 }
@@ -63,10 +63,10 @@
 	background-color: #fff;
 	border: 1px solid #ccc;
 	border-radius: 50%;
-	content: ''; 
+	content: '';
 }
 
-.q7-radio-btn:checked + .q7-radio-txt:after {
+.q7-radio-button:checked + .q7-radio-txt:after {
 	position: absolute;
 	top: 50%;
 	left: 4px;
@@ -80,7 +80,7 @@
 
 .q7-check { cursor: pointer; }
 
-.q7-check-btn{ display: none; }
+.q7-check-button{ display: none; }
 
 .q7-check-txt{
 	position: relative;
@@ -100,7 +100,7 @@
 	border: 1px solid #ccc;
 }
 
-.q7-check-btn:checked + .q7-check-txt:after {
+.q7-check-button:checked + .q7-check-txt:after {
 	position: absolute;
 	content: '';
 	top: 5px;
@@ -139,7 +139,7 @@
 	font-size: 14px;
 }
 
-.q7-btn {
+.q7-button {
 	padding: 5px 10px;
 	border: 1px solid #00bcd4;
 	border-radius: 5px;
@@ -147,7 +147,7 @@
 	cursor: pointer;
 }
 
-.q7-btn:active {
+.q7-button:active {
 	background-color: #00bcd4;
 	color: #FFF;
 }

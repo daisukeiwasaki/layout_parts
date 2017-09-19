@@ -4,84 +4,33 @@
 .wrapper {
 	margin: 0 auto;
 	width: 900px;
-	height: 510px;
 }
 
 .all-box {
-	height: 500px;
-	width: 900px;
 	background-color: #eff3f4;
+	padding: 20px;
 }
-.left-box1 {
-	width: 270px;
-	height: 435px;
-	margin-top: 20px;
-	padding-top: 20px;
-	margin-left: 20px;
+
+.main-box {
+	width: 230px;
 	background-color: #3274ae;
 	float: left;
-
+	padding: 20px;
 }
 
-.left-box2 {
+.main-box:not(:first-child) {
 	margin-left: 20px;
-	width: 210px;
-	border: solid 10px #022336;
+}
+
+.in-box {
+	padding: 20px;
+	border: 10px solid #022336;
 	background-color: #eaf4ff;
 }
 
-.left-box3 {
-	width: 170px;
-	margin: 20px auto;
-}
-
-
-.center-box1 {
-	width: 270px;
-	height: 435px;
-	margin-top: 20px;
-	padding-top: 20px;
-	margin-left: 20px;
-	background-color: #3274ae;
-	float: left;
-}
-
-.center-box2 {
-	margin-left: 20px;
-	width: 210px;
-	border: solid 10px #022336;
-	background-color: #eaf4ff;
-}
-
-.center-box3{
-	width: 170px;
-	margin: 20px auto;
-	
-
-
-}
-
-.right-box1 {
-	width: 270px;
-	height: 435px;
-	margin-top: 20px;
-	padding-top: 20px;
-	margin-left: 20px;
-	background-color: #3274ae;
-	float: left;
-}
-
-.right-box2 {
-	margin-left: 20px;
-	width: 210px;
-	border: solid 10px #022336;
-	background-color: #eaf4ff;
-}
-
-.right-box3 {
-	width: 170px;
-	margin: 20px auto;
-	
-
+.clearfix:after {
+	content: "";
+    display: block;
+    clear: both
 }
 /* 回答はここに書いてね */

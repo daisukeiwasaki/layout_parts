@@ -2,42 +2,32 @@
 
 /* 回答はここに書いてね */
 .wrapper2 {
-	margin: 0auto;
+	margin: 0 auto;
 	width: 900px;
-	height:600px;
 	background-color: #eff3f4;
-}
-
-.all {
 	padding: 20px;
 }
 
-.top1 {
-
-
-
-}
-.top2 {
-	margin-right: 20px;
-	margin-bottom: 10px;
-	float: left;
-}
-
-.top3 {
+.text-box {
 	font-size: 18px;
 	line-height: 22px;
 }
 
-.bottom2 {
+.photo-box1 {
+	float: left;
+	margin-right: 20px;
+}
+
+
+.photo-box2 {
 	margin-left: 20px;
 	margin-bottom: 10px;
 	float: right;
 }
 
-.bottom3 {
-	font-size: 18px;
-	line-height: 22px;
+.clearfix {
+	content: "";
+    display: block;
+    clear: both;
 }
-
-
 /* 回答はここに書いてね */
