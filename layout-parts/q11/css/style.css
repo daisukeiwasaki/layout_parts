@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.q11-1 {
+.top-content {
 	position: relative;
 	width: 500PX;
 	height: 333px;
@@ -10,11 +10,11 @@
 	overflow: hidden;
 }
 
-.q11-1-img {
+.top-img {
 	transition: all .5s;
 }
 
-.q11-1-1 {
+.bottom-content {
 	position: absolute;
 	bottom: -100%;
 	left: 0;
@@ -24,15 +24,15 @@
 	transition: all .5s;
 }
 
-.q11-1:hover .q11-1-img {
+.top-content:hover .top-img {
 	transform: scale(1.5);
 }
 
-.q11-1:hover .q11-1-1{
+.top-content:hover .bottom-content{
 	bottom: 0;
 }
 
-.q11-1-1-txt {
+.top-content-txt {
 	position: absolute;
 	color: #fff;
 	bottom: 0;
@@ -41,7 +41,7 @@
 	line-height: 16px;
 }
 
-.q11-2 {
+.spin-content {
 	width: 100px;
 	height: 100px;
 	margin: 0 auto;
