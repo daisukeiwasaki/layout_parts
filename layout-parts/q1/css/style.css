@@ -8,17 +8,18 @@
 
 .all-box {
 	background-color: #eff3f4;
-	padding: 20px;
+	padding: 10px;
 }
 
-.main-box {
+.all-box > li {
 	width: 230px;
 	background-color: #3274ae;
 	float: left;
 	padding: 20px;
+	margin: 10px;
 }
 
-.main-box:not(:first-child) {
+.li :not(:first-child) {
 	margin-left: 20px;
 }
 
@@ -30,7 +31,7 @@
 
 .clearfix:after {
 	content: "";
-    display: block;
-    clear: both
+	display: block;
+	clear: both;
 }
 /* 回答はここに書いてね */
