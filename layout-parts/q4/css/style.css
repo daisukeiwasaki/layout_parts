@@ -10,82 +10,58 @@
 }
 
 .container1 {
-	width: 100px;
-	height: 100px;
 	background-color: #ffefd3;
-	position: relative;
-	top: -160px;
-	left: 200px;
+	top: 220px;
+	left: 430px;
 	z-index: auto;
 }
 
 .container2 {
-	width: 100px;
-	height: 100px;
 	background-color: #7084de;
-	position: relative;
-	bottom: 480px;
-	left: 280px;
+	top: 300px;
+	left: 505px;
 	z-index: 1;
 }
 
 .container3 {
-	width: 100px;
-	height: 100px;
 	background-color: #d0ecea;
-	position: relative;
-	bottom: 500px;
-	left: 360px;
+	top: 380px;
+	right: 275px;
 	z-index: 2;
 }
 
 .container4 {
-	width: 100px;
-	height: 100px;
 	background-color: #8b7a5e;
-	position: relative;
-	bottom: 120px;
-	left: 280px;
+	bottom: 267px;
+	right: 355px;
 	z-index: 3;
 }
 
 .container5 {
-	width: 100px;
-	height: 100px;
 	background-color: #9fd6d2;
-	position: relative;
-	bottom: -260px;
-	left: 200px;
+	bottom: 187px;
+	left: 430px;
 	z-index: 4;
 }
 
 .container6 {
-	width: 100px;
-	height: 100px;
 	background-color: #fffee4;
-	position: relative;
-	bottom: 220px;
-	left: 120px;
+	bottom: 267px;
+	left: 350px;
 	z-index: 5;
 }
 
 .container7 {
-	width: 100px;
-	height: 100px;
 	background-color: #deae70;
-	position: relative;
-	bottom: 100px;
-	left: 40px;
+	bottom: 347px;
+	left: 270px;
 	z-index: 6;
 }
 
 .container8 {
-	width: 100px;
-	height: 100px;
 	background-color: #de70cf;
-	position: relative;
-	bottom: -120px;
-	left: 120px;
+	top: 300px;
+	left: 350px;
 	z-index: 7;
 }
 
@@ -100,12 +76,14 @@
 }
 
 .container9 {
-	width: 100px;
-	height: 100px;
 	background-color: #2b69a3;
-	position: fixed;
 	top: 10px;
 	left: 10px;
 }
 
+.all {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+}
 /* 回答はここに書いてね */
