@@ -6,7 +6,7 @@
 	background-color: #eef1f2;
 }
 
-div:not( :first-child) { 
+div:not(:first-child) {
   margin-top: 10px;
 }
 
