@@ -53,31 +53,6 @@
 	padding: 3px 3px 3px 20px;
 }
 
-.q7-radio-txt:before {
-	position: absolute;
-	top: 50%;
-	width: 14px;
-	height: 14px;
-	left: 0;
-	margin-top: -8px;
-	background-color: #fff;
-	border: 1px solid #ccc;
-	border-radius: 50%;
-	content: '';
-}
-
-.q7-radio-button:checked + .q7-radio-txt:after {
-	position: absolute;
-	top: 50%;
-	left: 4px;
-	width: 8px;
-	height: 8px;
-	margin-top: -4px;
-	background-color: #00BCD4;
-	border-radius: 50%;
-	content: '';
-}
-
 .q7-check { cursor: pointer; }
 
 .q7-check-button{ display: none; }
